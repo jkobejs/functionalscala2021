@@ -61,12 +61,12 @@ kubectl port-forward service/login-app  9000:9000
 
 Now you can test it using
 ```bash
-curl -i  localhost:9000/login/jkobejs/fscala2021
+curl -i  localhost:9000/login/jkobejs/functionalscala2021
 ```
 
 ## External secret
 
-Before creating external secret you should create on your AWS account `fpscala2021` secret with username and password. 
+Before creating external secret you should create on your AWS account `functionalscala2021` secret with username and password. 
 
 Now when you create external sercret using
 
